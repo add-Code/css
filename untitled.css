@@ -1,0 +1,75 @@
+
+.telebtn {
+    background-color: #363434;
+	  padding: 0px 0 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0087dc;
+    margin: 0px 12px 0px;
+    padding: 5px 0;
+    border-radius: 8px;
+}
+
+.telegram-icon {
+    width: 26px;
+    height: 26px;
+    background-color: #0088cc;
+    border-radius: 50%;
+    position: relative;
+    font-size: 19.99px;
+    color: white;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.telegram-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px dashed white;
+    border-radius: 50%;
+    animation: rotate 3s linear infinite;
+}
+
+.join-text {
+      font-size: 16px;
+      color: #fff;
+			letter-spacing: .4px;
+			font-weight: 800;
+}
+
+.fa-brands, .fab {
+    margin: 3.2px 0 0 3.2px !important;
+    display: flex !important;
+    padding: 0px 0px 1px 0px;
+}
+
+.fa-telegram-plane:before {
+    padding: 0px 0px 0px 1.5px;
+    content: "\f3fe";
+    font-size: 15px;
+    background: white;
+    color: #009ed2;
+    border-radius: 40px;
+    width: 18px;
+    height: 18px;
+    margin: 1px 2px 0px 1px;
+    line-height: 20px;
+    margin-right: 02px;
+}
+
+@keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
